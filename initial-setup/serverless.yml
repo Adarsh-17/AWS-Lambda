@@ -1,0 +1,11 @@
+org: adarshaniket28
+
+service: initial-setup
+
+provider:
+  name: aws
+  runtime: nodejs24.x
+
+functions:
+  hello:
+    handler: handler.hello
